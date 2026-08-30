@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "artifact": "Shift Rail support and privacy site",
+  "intent": {
+    "audience": "Global iPhone users evaluating or troubleshooting Shift Rail",
+    "job": "Find a precise support answer, understand alarm access, or verify privacy claims",
+    "tone": "Quiet, exact, utilitarian",
+    "genre": "atmospheric",
+    "macrostructure": "Conversational FAQ",
+    "theme": "custom Liquid Utility",
+    "navigation": "N9 edge-aligned minimal",
+    "footer": "Ft5 statement ending"
+  },
+  "sourceOfTruth": "tokens.css",
+  "enrichment": "none; product utility benefits from native typography and zero external assets"
+}

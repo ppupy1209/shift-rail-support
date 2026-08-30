@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "status": "passed-local",
+  "auditedRenders": 16,
+  "viewports": [320, 375, 414, 768, 1280, 1920],
+  "schemes": ["light", "dark-with-reduced-motion"],
+  "checks": {
+    "contentAccuracy": "pass-against-app-source",
+    "keyboardNavigation": "pass",
+    "responsive320": "pass",
+    "responsiveDesktop": "pass",
+    "darkMode": "pass",
+    "reducedMotion": "pass",
+    "localLinkIntegrity": "pass",
+    "browserHtmlParsing": "pass",
+    "wcagContrast": "pass",
+    "horizontalOverflow": "pass",
+    "slopTest": "pass-58-gates"
+  }
+}

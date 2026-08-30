@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ppupy1209.github.io/shift-rail-support/sitemap.xml

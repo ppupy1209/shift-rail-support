@@ -1,0 +1,71 @@
+/* Hallmark · genre: atmospheric · macrostructure: Conversational FAQ · theme: custom Liquid Utility · enrichment: none · nav: N9 · footer: Ft5
+ * vibe: "quiet alarm utility, exact, local" · paper: oklch(97% 0.008 174) · accent: oklch(47% 0.150 164)
+ * display: ui-monospace · body: ui-sans-serif · axes: light / mono / chromatic-green · context: established product system
+ * pre-emit critique: P5 H5 E5 S5 R5 V5
+ */
+:root {
+  color-scheme: light dark;
+
+  --color-paper: oklch(97% 0.008 174);
+  --color-paper-raised: oklch(93% 0.012 174);
+  --color-paper-high: oklch(88% 0.016 174);
+  --color-ink: oklch(19% 0.014 174);
+  --color-ink-soft: oklch(38% 0.018 174);
+  --color-ink-faint: oklch(48% 0.018 174);
+  --color-rule: oklch(81% 0.018 174);
+  --color-accent: oklch(47% 0.150 164);
+  --color-accent-quiet: oklch(91% 0.045 164);
+  --color-accent-ink: oklch(97% 0.008 174);
+  --color-focus: oklch(48% 0.150 164);
+
+  --font-display: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, monospace;
+  --font-body: ui-sans-serif, -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+  --space-4xl: 9rem;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-md: 1.25rem;
+  --text-lg: 1.5625rem;
+  --text-xl: 1.953rem;
+  --text-2xl: 2.441rem;
+  --text-display: clamp(2.55rem, 7vw + 0.25rem, 5.25rem);
+
+  --radius-sm: 0.75rem;
+  --radius-md: 1.125rem;
+  --radius-lg: 1.75rem;
+  --rule-hair: 1px;
+  --page-gutter: clamp(1rem, 5vw, 4rem);
+  --page-max: 74rem;
+
+  --dur-micro: 120ms;
+  --dur-short: 220ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-paper: oklch(13% 0.012 174);
+    --color-paper-raised: oklch(17% 0.014 174);
+    --color-paper-high: oklch(21% 0.016 174);
+    --color-ink: oklch(95% 0.008 174);
+    --color-ink-soft: oklch(76% 0.012 174);
+    --color-ink-faint: oklch(62% 0.012 174);
+    --color-rule: oklch(32% 0.018 174);
+    --color-accent: oklch(78% 0.145 164);
+    --color-accent-quiet: oklch(25% 0.055 164);
+    --color-accent-ink: oklch(15% 0.025 164);
+    --color-focus: oklch(88% 0.120 164);
+  }
+}
