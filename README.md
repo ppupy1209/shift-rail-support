@@ -6,11 +6,11 @@ Static, bilingual support and privacy pages for Shift Rail.
 
 Serve this directory over HTTP and open `/index.html`. The site has no build step, JavaScript, analytics, external fonts, or runtime dependencies.
 
-## Publication target
+## Published URLs
 
 The canonical URLs assume a public GitHub Pages repository named `ppupy1209/shift-rail-support` served from its default branch root:
 
 - `https://ppupy1209.github.io/shift-rail-support/`
 - `https://ppupy1209.github.io/shift-rail-support/privacy.html`
 
-Do not publish until the repository name and Pages URLs are confirmed.
+Changes published from `main` must be verified at both URLs after GitHub Pages finishes deploying.
